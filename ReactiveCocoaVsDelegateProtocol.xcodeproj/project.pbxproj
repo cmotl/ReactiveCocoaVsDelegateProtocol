@@ -15,8 +15,8 @@
 		82CCA2BC17F3C03B003B1B0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CCA2BB17F3C03B003B1B0B /* AppDelegate.m */; };
 		82CCA2BF17F3C03B003B1B0B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CCA2BD17F3C03B003B1B0B /* Main_iPhone.storyboard */; };
 		82CCA2C217F3C03B003B1B0B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CCA2C017F3C03B003B1B0B /* Main_iPad.storyboard */; };
-		82CCA2C517F3C03B003B1B0B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CCA2C417F3C03B003B1B0B /* FirstViewController.m */; };
-		82CCA2C817F3C03B003B1B0B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CCA2C717F3C03B003B1B0B /* SecondViewController.m */; };
+		82CCA2C517F3C03B003B1B0B /* ReactiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CCA2C417F3C03B003B1B0B /* ReactiveViewController.m */; };
+		82CCA2C817F3C03B003B1B0B /* DelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CCA2C717F3C03B003B1B0B /* DelegateViewController.m */; };
 		82CCA2CA17F3C03B003B1B0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CCA2C917F3C03B003B1B0B /* Images.xcassets */; };
 		82CCA2D117F3C03B003B1B0B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CCA2D017F3C03B003B1B0B /* XCTest.framework */; };
 		82CCA2D217F3C03B003B1B0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CCA2AB17F3C03B003B1B0B /* Foundation.framework */; };
@@ -48,10 +48,10 @@
 		82CCA2BB17F3C03B003B1B0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		82CCA2BE17F3C03B003B1B0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		82CCA2C117F3C03B003B1B0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		82CCA2C317F3C03B003B1B0B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		82CCA2C417F3C03B003B1B0B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		82CCA2C617F3C03B003B1B0B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		82CCA2C717F3C03B003B1B0B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		82CCA2C317F3C03B003B1B0B /* ReactiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveViewController.h; sourceTree = "<group>"; };
+		82CCA2C417F3C03B003B1B0B /* ReactiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveViewController.m; sourceTree = "<group>"; };
+		82CCA2C617F3C03B003B1B0B /* DelegateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelegateViewController.h; sourceTree = "<group>"; };
+		82CCA2C717F3C03B003B1B0B /* DelegateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateViewController.m; sourceTree = "<group>"; };
 		82CCA2C917F3C03B003B1B0B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		82CCA2CF17F3C03B003B1B0B /* ReactiveCocoaVsDelegateProtocolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveCocoaVsDelegateProtocolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CCA2D017F3C03B003B1B0B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -121,10 +121,10 @@
 				82CCA2BB17F3C03B003B1B0B /* AppDelegate.m */,
 				82CCA2BD17F3C03B003B1B0B /* Main_iPhone.storyboard */,
 				82CCA2C017F3C03B003B1B0B /* Main_iPad.storyboard */,
-				82CCA2C317F3C03B003B1B0B /* FirstViewController.h */,
-				82CCA2C417F3C03B003B1B0B /* FirstViewController.m */,
-				82CCA2C617F3C03B003B1B0B /* SecondViewController.h */,
-				82CCA2C717F3C03B003B1B0B /* SecondViewController.m */,
+				82CCA2C317F3C03B003B1B0B /* ReactiveViewController.h */,
+				82CCA2C417F3C03B003B1B0B /* ReactiveViewController.m */,
+				82CCA2C617F3C03B003B1B0B /* DelegateViewController.h */,
+				82CCA2C717F3C03B003B1B0B /* DelegateViewController.m */,
 				82CCA2C917F3C03B003B1B0B /* Images.xcassets */,
 				82CCA2B217F3C03B003B1B0B /* Supporting Files */,
 			);
@@ -258,9 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82CCA2C817F3C03B003B1B0B /* SecondViewController.m in Sources */,
+				82CCA2C817F3C03B003B1B0B /* DelegateViewController.m in Sources */,
 				82CCA2BC17F3C03B003B1B0B /* AppDelegate.m in Sources */,
-				82CCA2C517F3C03B003B1B0B /* FirstViewController.m in Sources */,
+				82CCA2C517F3C03B003B1B0B /* ReactiveViewController.m in Sources */,
 				82CCA2B817F3C03B003B1B0B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
