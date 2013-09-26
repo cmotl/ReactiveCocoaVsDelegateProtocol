@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  DelegateModalViewController.h
 //  ReactiveCocoaVsDelegateProtocol
 //
 //  Created by Christopher Motl on 9/25/13.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "DelegateModalProtocol.h"
-#import "DelegateModalViewController.h"
 
-@interface DelegateViewController : UIViewController <DelegateModalProtocol>
+@interface DelegateModalViewController : UIViewController
+
+@property (nonatomic,weak) id <DelegateModalProtocol> delegate;
 
 @end

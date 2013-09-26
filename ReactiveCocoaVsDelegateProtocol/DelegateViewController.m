@@ -26,4 +26,20 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if([[segue identifier] isEqualToString:@"DelegateModalSegue"])
+    {
+        DelegateModalViewController *dmvc = [segue destinationViewController];
+        
+        dmvc.delegate = self;
+    }
+}
+
+- (void)done:(NSString *)value
+{
+    NSLog(@"received value: %@", value);
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 @end
